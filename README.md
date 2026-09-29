@@ -1,117 +1,25 @@
-## Rapid TV app using Rapid UI and React
+# RapidTV
 
-<div align="center">
+本仓库是「RapidTV」的安卓版本获取入口，附使用资料索引。
 
-<img src="public/mylogo.png" alt="rapidtv logo" with="1048px" height="238px" />
+## 安装文件资源（夸克网盘）
 
-Rapid TV - Video Library App using [Rapid UI](https://rapidui.netlify.app/) and React.js
+> **RapidTV 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/40d11a0a99fc](https://pan.quark.cn/s/40d11a0a99fc)
 
-[![GitHub followers](https://img.shields.io/github/followers/vleads?style=social)](https://github.com/vleads)
-&emsp;
-![Forks](https://img.shields.io/github/forks/vleads/RapidTv)
-&emsp;
-![Stars](https://img.shields.io/github/stars/vleads/RapidTv)
-&emsp;
-[![Twitter Follow](https://img.shields.io/twitter/follow/vishalk01234?style=social)](https://twitter.com/vishalk01234)
+## 官方项目
 
-</div>
+- 上游项目：[VLeads/RapidTv](https://github.com/VLeads/RapidTv)
 
-## Live : [Rapid TV](https://rapidtv.vercel.app/)
+## 更多资料
 
----
-
-## 📕 Table of Contents
-
-- [About](#-about)
-- [Its Features](#-its-features)
-- [Getting Started](#-getting-started)
-- [Connect with me](#-connect-with-me)
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/RapidTV/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [与ReelShort、DramaBox等短剧应用的对比](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/RapidTV/%E4%B8%8EReelShort%E3%80%81DramaBox%E7%AD%89%E7%9F%AD%E5%89%A7%E5%BA%94%E7%94%A8%E7%9A%84%E5%AF%B9%E6%AF%94.md)
+- [免费看剧与金币规则](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/RapidTV/%E5%85%8D%E8%B4%B9%E7%9C%8B%E5%89%A7%E4%B8%8E%E9%87%91%E5%B8%81%E8%A7%84%E5%88%99.md)
+- [同名应用与下载避坑](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/RapidTV/%E5%90%8C%E5%90%8D%E5%BA%94%E7%94%A8%E4%B8%8E%E4%B8%8B%E8%BD%BD%E9%81%BF%E5%9D%91.md)
+- [常见问题与解决办法](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/RapidTV/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.md)
+- [离线缓存与追剧技巧](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/RapidTV/%E7%A6%BB%E7%BA%BF%E7%BC%93%E5%AD%98%E4%B8%8E%E8%BF%BD%E5%89%A7%E6%8A%80%E5%B7%A7.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
 ---
 
-## 📖 About
-
-Rapid TV is a video library for tech enthusiast. It shows videos based on New gadgets arriving in the market, product reviews, tech news and whats overall happening in the market revolving around this theme.
-
-Choose your category and binge watch
-
-Give it a try today.
-
----
-
-## 🚀 Its Features
-
-**Search for Video**
-
-- search for any video available, you wanna see
-
-**Like a Video**
-
-- like a Video
-- remove specific video from the Liked videos page
-
-**Add a Video in Watch Later**
-
-- add a Video to your Watch Later
-- remove video from the Watch Later
-
-**Authentication**
-
-- Log In as Guest
-- Log In/Log Out
-
-  - Sign Up by following the link provided on the Log In page
-
-**Clear All History**
-
-- clear All history at once
-- remove a specific video from the History
-
-**Create a Playlist**
-
-- create a Playlist
-- add video to a Playlist
-- delete a specific Playlist
-- remove video from a Playlist
-- play specific video from a Playlist
-
-**Play a Video**
-
-- play a Video, click video card
-- choose a video to play from a specific category, click different chips
-
-## 🔌 Getting Started
-
-- clone the repository on your local machine with the command below in your terminal, and cd into the **rapidtv** folder
-
-```
-
-git clone https://github.com/VLeads/RapidTv.git
-cd rapidtv
-```
-
-- install dependencies (if you are using **yarn** then use yarn command)
-
-```
-npm install
-
-yarn add
-```
-
-- create a `.env` file at the root level of the directory (at the level of `package.json`) and create a variable like mentioned below
-
-```
-REACT_APP_JWT_SECRET = <JWT_SECRET_KEY_OF_YOUR_CHOICE>
-```
-
-- start the server
-
-```
-npm start
-```
-
-## 👨‍💻 Connect with me
-
-<a href="https://twitter.com/vishalk01234"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/vishalkumar28//"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/VLeads"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/VLeads/RapidTv)。
